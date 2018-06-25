@@ -1,0 +1,20 @@
+﻿{
+    "Default": {
+        "State": "Running",
+        "RequestUrlHost": null,
+        "RequestUrlPrefix": null,
+        "Features": [ "RemoteIpMessage" ]
+    },
+    "CustomerA": {
+        "State": "Running",
+        "RequestUrlHost": null,
+        "RequestUrlPrefix": "customer-a",
+        "Features": [ "RemoteIpMessage", "TimeOfDay" ]
+    },
+    "CustomerB": {
+        "State": "Running",
+        "RequestUrlHost": null,
+        "RequestUrlPrefix": "customer-b",
+        "Features": [ "RemoteIpMessage", "TimeOfDay", "WeatherForecast" ]
+    }
+}
