@@ -2,13 +2,13 @@
 using OrchardCore.Modules;
 
 [assembly: OrchardCore.Modules.Manifest.Feature(
-    Id = "RemoteIpMessage",
-    Name = "RemoteIpMessage"
+    Id = "RemoteIp",
+    Name = "RemoteIp"
 )]
 
-namespace MultiTenantApp.Features.RemoteIpMessage
+namespace MultiTenantApp.Features.RemoteIp
 {
-    [Feature("RemoteIpMessage")]
+    [Feature("RemoteIp")]
     public class Startup : StartupBase
     {
         public override void ConfigureServices(IServiceCollection services)

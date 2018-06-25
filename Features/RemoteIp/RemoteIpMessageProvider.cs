@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 
-namespace MultiTenantApp.Features.RemoteIpMessage
+namespace MultiTenantApp.Features.RemoteIp
 {
     public class RemoteIpMessageProvider : IMessageProvider
     {
