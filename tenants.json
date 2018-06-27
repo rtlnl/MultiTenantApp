@@ -3,18 +3,20 @@
         "State": "Running",
         "RequestUrlHost": null,
         "RequestUrlPrefix": null,
-        "Features": [ "RemoteIp" ]
+        "CustomSetting": "Custom setting for Default tenant"
     },
     "CustomerA": {
         "State": "Running",
         "RequestUrlHost": null,
         "RequestUrlPrefix": "customer-a",
-        "Features": [ "RemoteIp", "TimeOfDay" ]
+        "CustomSetting": "Custom setting for Customer A",
+        "Features": [ "RemoteIp" ]
     },
     "CustomerB": {
         "State": "Running",
         "RequestUrlHost": null,
         "RequestUrlPrefix": "customer-b",
-        "Features": [ "RemoteIp", "TimeOfDay", "WeatherForecast" ]
+        "CustomSetting": "Custom setting for Customer B",
+        "Features": [ "RemoteIp", "TimeOfDay" ]
     }
 }
